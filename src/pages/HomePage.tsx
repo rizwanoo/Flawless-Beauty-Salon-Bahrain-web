@@ -20,7 +20,7 @@ export default function HomePage({ onNavigate, onBookService }: HomePageProps) {
         {/* Immersive Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/hero_salon_editorial_1794216861127.jpg"
+            src="/images/hero.jpg"
             alt="Flawless Beauty Salon Luxury Interior in Manama, Bahrain"
             className="w-full h-full object-cover object-center scale-105 transition-transform duration-1000 ease-out"
           />
@@ -156,7 +156,7 @@ export default function HomePage({ onNavigate, onBookService }: HomePageProps) {
             <div className="lg:col-span-5 relative">
               <div className="relative border border-stone-200 bg-white p-3 shadow-md">
                 <img
-                  src="/src/assets/images/salon_interior_lounge_1794216863632.jpg"
+                  src="/images/salon_lounge.jpg"
                   alt="Flawless Beauty Salon Reception & Lounge in Bahrain"
                   className="w-full h-[440px] object-cover"
                 />
@@ -305,7 +305,7 @@ export default function HomePage({ onNavigate, onBookService }: HomePageProps) {
               <div className="lg:col-span-5">
                 <div className="border border-stone-200 bg-white p-2">
                   <img
-                    src="/src/assets/images/hair_treatment_keratin_1794216863531.jpg"
+                    src="/images/keratin.jpg"
                     alt="Glass hair keratin result at Flawless Beauty Salon"
                     className="w-full h-64 sm:h-72 object-cover"
                   />
@@ -462,7 +462,7 @@ export default function HomePage({ onNavigate, onBookService }: HomePageProps) {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="relative group overflow-hidden bg-stone-200 h-64 border border-stone-200">
               <img
-                src="/src/assets/images/hair_transformation_balayage_1794216862567.jpg"
+                src="/images/balayage.jpg"
                 alt="Balayage transformation by Flawless"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -473,7 +473,7 @@ export default function HomePage({ onNavigate, onBookService }: HomePageProps) {
 
             <div className="relative group overflow-hidden bg-stone-200 h-64 border border-stone-200">
               <img
-                src="/src/assets/images/beauty_nail_artistry_1794216864402.jpg"
+                src="/images/nails.jpg"
                 alt="Nail artistry by Flawless"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -484,7 +484,7 @@ export default function HomePage({ onNavigate, onBookService }: HomePageProps) {
 
             <div className="relative group overflow-hidden bg-stone-200 h-64 border border-stone-200">
               <img
-                src="/src/assets/images/hair_treatment_keratin_1794216863531.jpg"
+                src="/images/keratin.jpg"
                 alt="Keratin smoothing by Flawless"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -495,7 +495,7 @@ export default function HomePage({ onNavigate, onBookService }: HomePageProps) {
 
             <div className="relative group overflow-hidden bg-stone-200 h-64 border border-stone-200">
               <img
-                src="/src/assets/images/hero_salon_editorial_1794216861127.jpg"
+                src="/images/hero.jpg"
                 alt="Salon atmosphere by Flawless"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />

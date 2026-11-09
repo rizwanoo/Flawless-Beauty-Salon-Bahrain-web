@@ -113,7 +113,7 @@ export const SERVICES_CATALOG: ServiceItem[] = [
     startingPrice: "BHD 45",
     description: "Hand-painted bespoke multidimensional hair painting tailored to your skin tone and natural texture, followed by an ultra-gloss shine glaze.",
     highlights: ["Custom freehand painting", "Ammonia-safe bonding protector", "Custom gloss toner & blowout"],
-    image: "/src/assets/images/hair_transformation_balayage_1794216862567.jpg",
+    image: "/images/balayage.jpg",
     popular: true
   },
   {
@@ -125,7 +125,7 @@ export const SERVICES_CATALOG: ServiceItem[] = [
     startingPrice: "BHD 50",
     description: "Deep restorative smoothing therapy that eliminates frizz, restores elasticity, and seals hair with glass-like mirror shine for up to 5 months.",
     highlights: ["Formaldehyde-free organic formula", "Intense humidity defense", "Silky mirror finish"],
-    image: "/src/assets/images/hair_treatment_keratin_1794216863531.jpg",
+    image: "/images/keratin.jpg",
     popular: true
   },
   {
@@ -137,7 +137,7 @@ export const SERVICES_CATALOG: ServiceItem[] = [
     startingPrice: "BHD 15",
     description: "Precision dry and wet cutting sculptured to complement your facial bone structure, finished with a voluminous luxury Hollywood blowout.",
     highlights: ["In-depth texture diagnosis", "Scalp cleansing & botanical wash", "Thermal style holding finish"],
-    image: "/src/assets/images/hero_salon_editorial_1794216861127.jpg",
+    image: "/images/hero.jpg",
     popular: false
   },
   {
@@ -149,7 +149,7 @@ export const SERVICES_CATALOG: ServiceItem[] = [
     startingPrice: "BHD 30",
     description: "Rich chromatic depth using premier European color pigments with intense reflect, complete gray coverage, and luminous multi-tonal shine.",
     highlights: ["Micro-pigment color technology", "Scalp protection barrier", "Color-locking post-infusion"],
-    image: "/src/assets/images/hair_transformation_balayage_1794216862567.jpg",
+    image: "/images/balayage.jpg",
     popular: false
   },
   {
@@ -161,7 +161,7 @@ export const SERVICES_CATALOG: ServiceItem[] = [
     startingPrice: "BHD 18",
     description: "Meticulous e-file precision cuticle therapy, structured rubber base alignment, and custom minimalist nail design with 4+ weeks retention.",
     highlights: ["Hardware precision cuticle alignment", "Reinforced apex architecture", "Non-chip high shine topcoat"],
-    image: "/src/assets/images/beauty_nail_artistry_1794216864402.jpg",
+    image: "/images/nails.jpg",
     popular: true
   },
   {
@@ -173,7 +173,7 @@ export const SERVICES_CATALOG: ServiceItem[] = [
     startingPrice: "BHD 25",
     description: "Custom sculpted extensions tailored to your natural nail bed, finished with crystal ombré, timeless baby boomer, or editorial designs.",
     highlights: ["Zero-lift adhesion prep", "Natural tapered nail curve", "Swarovski & gold leaf accents"],
-    image: "/src/assets/images/beauty_nail_artistry_1794216864402.jpg",
+    image: "/images/nails.jpg",
     popular: false
   },
   {
@@ -185,7 +185,7 @@ export const SERVICES_CATALOG: ServiceItem[] = [
     startingPrice: "BHD 14",
     description: "Warm mineral foot soak, Himalayan pink salt exfoliation, deep callus therapy, hydrating paraffin bootie mask, and soothing calf massage.",
     highlights: ["Sterilized surgical steel tools", "Dead skin enzyme peeling", "Extended pressure point massage"],
-    image: "/src/assets/images/beauty_nail_artistry_1794216864402.jpg",
+    image: "/images/nails.jpg",
     popular: false
   },
   {
@@ -197,7 +197,7 @@ export const SERVICES_CATALOG: ServiceItem[] = [
     startingPrice: "BHD 6",
     description: "Traditional organic antibacterial thread hair removal combined with custom hybrid tinting for sharp, symmetrical, natural brow definition.",
     highlights: ["Facial mapping measurement", "Gentle aloe soothing compress", "Lasting hybrid brow stain"],
-    image: "/src/assets/images/salon_interior_lounge_1794216863632.jpg",
+    image: "/images/salon_lounge.jpg",
     popular: true
   },
   {
@@ -209,7 +209,7 @@ export const SERVICES_CATALOG: ServiceItem[] = [
     startingPrice: "BHD 28",
     description: "Non-invasive suction extraction, vortex hydration, vitamin C antioxidant serum infusion, and lymphatic cooling jade globe massage.",
     highlights: ["Deep ultrasonic pore cleansing", "Custom active peptide serum", "Cryo-globe lifting massage"],
-    image: "/src/assets/images/salon_interior_lounge_1794216863632.jpg",
+    image: "/images/salon_lounge.jpg",
     popular: false
   },
   {
@@ -221,7 +221,7 @@ export const SERVICES_CATALOG: ServiceItem[] = [
     startingPrice: "BHD 35",
     description: "Flawless red carpet waterproof base, sultry eye definition, individual lash application, and long-wear setting mist for special occasions.",
     highlights: ["Skin prep hydrating elixir", "Individual featherweight lashes", "16-hour sweat & tear proofing"],
-    image: "/src/assets/images/hair_transformation_balayage_1794216862567.jpg",
+    image: "/images/balayage.jpg",
     popular: false
   },
   {
@@ -233,7 +233,7 @@ export const SERVICES_CATALOG: ServiceItem[] = [
     startingPrice: "BHD 25",
     description: "Authentic steam hammam ritual with traditional black Beldi soap, intensive Kessa glove exfoliation, and Ghassoul clay nourishing wrap.",
     highlights: ["Pure organic eucalyptus soap", "Full body invigorating exfoliation", "Rosewater hydrating mist"],
-    image: "/src/assets/images/salon_interior_lounge_1794216863632.jpg",
+    image: "/images/salon_lounge.jpg",
     popular: true
   },
   {
@@ -245,7 +245,7 @@ export const SERVICES_CATALOG: ServiceItem[] = [
     startingPrice: "BHD 22",
     description: "Targeted myofascial release using warm essential botanicals to melt muscular tension, improve circulation, and soothe stress.",
     highlights: ["Tailored pressure intensity", "Organic warm botanical oils", "Private peaceful sanctuary"],
-    image: "/src/assets/images/salon_interior_lounge_1794216863632.jpg",
+    image: "/images/salon_lounge.jpg",
     popular: false
   }
 ];
@@ -330,7 +330,7 @@ export const GALLERY_ITEMS = [
     title: "Dimensional Caramel Balayage",
     category: "hair-color",
     categoryLabel: "Hair Colour",
-    image: "/src/assets/images/hair_transformation_balayage_1794216862567.jpg",
+    image: "/images/balayage.jpg",
     aspect: "tall"
   },
   {
@@ -338,7 +338,7 @@ export const GALLERY_ITEMS = [
     title: "Glass-Shine Keratin Transformation",
     category: "hair-treatments",
     categoryLabel: "Hair Treatments",
-    image: "/src/assets/images/hair_treatment_keratin_1794216863531.jpg",
+    image: "/images/keratin.jpg",
     aspect: "wide"
   },
   {
@@ -346,7 +346,7 @@ export const GALLERY_ITEMS = [
     title: "Manama Luxury Styling Floor",
     category: "interior",
     categoryLabel: "Salon Interior",
-    image: "/src/assets/images/hero_salon_editorial_1794216861127.jpg",
+    image: "/images/hero.jpg",
     aspect: "wide"
   },
   {
@@ -354,7 +354,7 @@ export const GALLERY_ITEMS = [
     title: "Rose Gold Accent Russian Manicure",
     category: "nails",
     categoryLabel: "Nails & Artistry",
-    image: "/src/assets/images/beauty_nail_artistry_1794216864402.jpg",
+    image: "/images/nails.jpg",
     aspect: "square"
   },
   {
@@ -362,7 +362,7 @@ export const GALLERY_ITEMS = [
     title: "Reception & Private Consultation Lounge",
     category: "interior",
     categoryLabel: "Salon Interior",
-    image: "/src/assets/images/salon_interior_lounge_1794216863632.jpg",
+    image: "/images/salon_lounge.jpg",
     aspect: "wide"
   }
 ];

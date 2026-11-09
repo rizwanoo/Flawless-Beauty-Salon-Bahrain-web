@@ -71,7 +71,7 @@ export default function AboutPage({ onNavigate }: AboutPageProps) {
           <div className="lg:col-span-6">
             <div className="relative border border-stone-200 bg-white p-3 shadow-md">
               <img
-                src="/src/assets/images/hero_salon_editorial_1794216861127.jpg"
+                src="/images/hero.jpg"
                 alt="Flawless Salon Interior in Bahrain"
                 className="w-full h-[460px] object-cover"
               />
