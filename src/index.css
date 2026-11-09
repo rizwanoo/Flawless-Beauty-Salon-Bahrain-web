@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Syne', sans-serif;
+  --font-editorial: 'Playfair Display', serif;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+
+  --color-brand-cherry: #C81E3D;
+  --color-brand-coral: #DE5338;
+  --color-brand-rose: #E11D48;
+  --color-brand-blush: #FFF1F2;
+  --color-brand-peach: #FFF7ED;
+  --color-brand-champagne: #FAF6F0;
+  --color-brand-sand: #F3ECE2;
+  --color-brand-gold: #B38F4D;
+  --color-brand-charcoal: #1C1917;
+  --color-brand-warm-stone: #292524;
+}
+
+/* Custom luxury smoothing and text utilities */
+html {
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
+
+.font-editorial {
+  font-family: var(--font-editorial);
+}
+
+/* Editorial line dividers */
+.editorial-divider {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(200, 30, 61, 0.25) 0%, rgba(200, 30, 61, 0.05) 50%, transparent 100%);
+}
+
+.editorial-divider-full {
+  height: 1px;
+  background: rgba(225, 29, 72, 0.12);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Flawless Beauty Salon Bahrain",
+  "description": "Luxury Hair & Beauty Experience in Manama, Kingdom of Bahrain. Specializing in balayage, keratin transformations, luxury nails, bridal styling, and holistic wellness across Hoora and Gudaibiya branches.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
